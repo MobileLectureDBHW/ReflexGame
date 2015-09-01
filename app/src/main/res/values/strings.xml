@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ReflexGame</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="reflexgame">Reflex Game</string>
+    <string name="playername">Player Name</string>
+    <string name="level">Level</string>
+    <string name="letsgo">Let\'s Go</string>
+
+</resources>
