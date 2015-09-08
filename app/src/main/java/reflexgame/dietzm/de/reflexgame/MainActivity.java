@@ -89,7 +89,13 @@ public class MainActivity extends Activity {
         toast.show();
 
 
+        ReflexGameDBHelper dbhelper = new ReflexGameDBHelper(getApplicationContext());
+        dbhelper.addHighscoreEntry(
+                playernameInp.getText().toString(),
+                (int)levelInp.getProgress(),
+                (int)(Math.random()*1000));
 
+        dbhelper.getAllHighscoreEntries();
 
 
 
